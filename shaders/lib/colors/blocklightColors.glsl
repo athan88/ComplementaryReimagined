@@ -26,7 +26,7 @@ vec4 GetSpecialBlocklightColor(int mat) {
 					if (mat == 4) return vec4(vec3(1.0, 1.5, 2.0) * 3.0, 0.0); // Beacon
 					if (mat == 5) return vec4(fireSpecialLightColor, 0.0); // Fire
 					if (mat == 6) return vec4(vec3(0.7, 1.5, 1.5) * 1.7, 0.0); // Sea Pickle:Waterlogged
-					if (mat == 7) return vec4(vec3(1.1, 0.85, 0.35) * 5.0, 0.0); // Ochre Froglight
+					if (mat == 7) return vec4(vec3(1.7, 0.9, 0.4) * 4.0, 0.0); // Ochre Froglight
 				} else {
 					if (mat == 8) return vec4(vec3(0.6, 1.3, 0.6) * 4.5, 0.0); // Verdant Froglight
 					if (mat == 9) return vec4(vec3(1.1, 0.5, 0.9) * 4.5, 0.0); // Pearlescent Froglight
